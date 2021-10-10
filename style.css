@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1% 25%;
+}
+.logo{
+    width: 30%;
+}
+.logo h3{ 
+    color: #fff;
+    font-size: 2rem;
+}
+.nav-links{
+    width: 70%;
+}
+.nav-links ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links ul li{
+    list-style: none;
+    padding: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-links ul li a{
+   text-decoration: none;
+   color: #fff;
+}
+.nav-links ul li a:hover{
+   text-decoration: none;
+   color: rgb(247, 222, 0);
+}
+.head-content{
+    margin-top: 7%;
+    color: #fff;
+    width: 50%;
+}
+.head-content h2, p{
+    margin: 5% 0;
+}
+#head-button-1, #head-button-2{
+    padding: 2% 5%;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
+#head-button-1{
+    background-color: yellow;
+}
+#head-button-2{
+    background-color: purple;
+    color: white;
+}
+.welcome{
+    width: 100%;
+    height: 100vh;
+    padding: 1% 25%;
+}
+#welcome-title h1{
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 700;
+}
+#welcome-text p{
+    width: 50%;
+    font-size: 2rem;
+}
+#welcome-text{
+    display: flex;
+    margin: 3% 0;
+}
+.fa-umbrella{
+    margin:  5% 0 0 20%;
+    text-align: right;
+    background: transparent;
+    color: grey;
+}
+.welcome-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    border: none;
+}
+.welcome-card-btn{
+    background-color: yellow;
+    border: none;
+    color: black;
+}
+.welcome-card-btn:hover{
+    background-color: purple;
+    color: white;
+}
+.circle{
+    width: 90px;
+    height: 90px;
+    background-color: purple;
+    color: white;
+    margin: auto;
+    padding: 20px 0;
+    border-radius: 50%;
+}
+.projects{
+    width: 100%;
+    height: 80vh;
+    margin-top: 10%;
+}
+#project-title h1{
+    text-align: center;
+    margin: 5% 0;
+    font-weight: 700;
+}
+.project-cards{
+    display: flex;
+}
+.projects .project-cards .card .card-body{
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+}
+.projects .project-cards .card .card-body .btn{
+    padding: 3% 1%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 0%;
+}
+.projects .project-cards .card .card-body .btn:hover{
+    background-color: rgb(175, 0, 245);
+    color: black;
+    border: none;
+}
+.projects .project-cards .card .card-body:hover{
+    background-color: rgb(237, 241, 0);
+}
+.pricing-table{
+    width: 100%;
+    height: 60vh;
+    margin-top: 30%;
+}
+#pricing-title h1{
+    text-align: center;
+    margin: 5% 0;
+    font-weight: 700;
+}
+.pricing-cards{
+    display: flex;
+    justify-content: center;
+}
+.pricing-table .pricing-cards .card-body .card-title{
+    font-weight: 700;
+}
+.pricing-table .pricing-cards .card-body .card-time{
+    font-weight: 400;
+    color: gray;
+}
+.pricing-table .pricing-cards .card-body .btn{
+    background-color: rgb(247, 222, 0);
+    border: 0;
+    color: black;
+    font-weight: 500;
+}
+.pricing-table .pricing-cards .card-body .btn:hover{
+    background-color: rgb(128, 0, 179);
+    border: 0;
+}
+.vertical-line{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 0;
+    height: 270px;
+}
+.video-section{
+    width: 100%;
+    height: 80vh;
+    margin-top: 8%;
+    padding-top: 1%;
+    background-color: purple;
+}
+#video-title h1{
+    text-align: center;
+    margin: 3% 0;
+    color: white;
+}
+.videos-list{
+    display: flex;
+    justify-content: space-around;
+}
+.team{
+    width: 100%;
+    height: 80vh;
+    padding-top: 1%;
+}
+#team-title h1{
+    text-align: center;
+    margin: 3% 0;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.team-people{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 15%;
+}
+.team-people .card{
+    height: 250px;
+    width: 18rem;
+}
+.team-people .card .card-img-top{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+.team-people .card .card-title{
+    font-weight: 500;
+}
+.team-people .card .card-text{
+    color: grey;
+}
+.gallery-life{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(156, 156, 156);
+}
+#gallery-title h1{
+    text-align: center;
+    margin: 15% 0 1% 0;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.news-signup{
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/wide.jpg);
+}
+.news-signup h1{
+    text-align: center;
+    margin-top: 7%;
+    padding-top: 7%;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.news-signup-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news-signup-form #newsletter-input{
+    height: 2.5rem;
+    width: 20rem;
+    border: none;
+    outline: none;
+    margin-right: 2px;
+    padding: 2px;
+}
+.news-signup-form #newsletter-button{
+    border: none;
+    outline: none;
+    height: 2.5rem;
+    width: 5rem;
+    background-color: yellow;
+}
+.news-signup-form #newsletter-button:hover{
+    background-color: purple;
+}
+#blog-title h1{
+    text-align: center;
+    margin: 2% 0;
+    font-weight: 700;
+}
+.blog-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 1%;
+}
+.date{
+    color: gray;
+}
+.blog-cards .btn{
+    background: rgb(209, 209, 209);
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+.blog-cards .btn:hover{
+    background: yellow;
+}
+.map-form{
+    width: 100%;
+    height: 500px;
+    margin: 15% 0 2% 0;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+.contact-form{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.contact-form #form-submit{
+    color: black;
+    background: purple;
+}
+.contact-form input{
+    border: 1px solid black;
+    outline: none;
+    padding: 1%;
+    margin: 1% 0;
+}
+.footer{
+    margin: 5% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.address, .contact, .followus{
+    text-align: center;
+}
